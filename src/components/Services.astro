@@ -1,4 +1,5 @@
 ---
+let showModal = false;
 ---
 
 <section id="servicios" class="py-20 bg-gray-50">
@@ -10,7 +11,8 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Servicio Basico -->
-      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer">
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer", onclick="document.getElementById('modalGaleriaPlus').classList.remove('hidden')">
+        
         <div class="h-48 overflow-hidden">
           <img 
             src="/img/plus.jpg" 
@@ -18,6 +20,8 @@
             class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
         </div>
+
+        <!-- TEXTO-->
         <div class="p-6">
           <h3 class="text-xl font-semibold text-gray-900 mb-3">Servicio Plus</h3>
           <p class="text-gray-600 mb-4">Rutas fijas con horarios establecidos. Conectamos Sinaloa con Baja California con comodidad y puntualidad.</p>
@@ -31,9 +35,35 @@
           </a>
         </div>
       </div>
+      <!-- MODAL GALERÍA -->
+      <div 
+        id="modalGaleriaPlus" 
+        class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50 p-4"
+      >
+        <div class="bg-white rounded-2xl shadow-lg w-full max-w-4xl relative max-h-[90vh] overflow-y-auto">
+          <!-- Botón cerrar -->
+          <button 
+            onclick="document.getElementById('modalGaleriaPlus').classList.add('hidden')" 
+            class="sticky top-3 right-3 ml-auto block text-gray-500 hover:text-gray-700 text-3xl leading-none z-50"
+          >
+            ×
+          </button>
+
+          <!-- Contenedor de imágenes responsivo -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+            <img src="/img/plus.jpg" alt="Servicio Plus 1" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus2.jpg" alt="Servicio Plus 2" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus3.jpg" alt="Servicio Plus 3" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus4.jpg" alt="Servicio Plus 4" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus5.jpg" alt="Servicio Plus 5" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus6.jpg" alt="Servicio Plus 6" class="w-full h-48 object-cover rounded-lg shadow-md" />
+          </div>
+        </div>
+      </div>
+      <!-- Repetir para otros servicios --> 
 
       <!-- Servicio Star -->
-      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer">
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer" onclick="document.getElementById('modalGaleriaStar').classList.remove('hidden')">
         <div class="h-48 overflow-hidden">
           <img 
             src="/img/star.jpg" 
@@ -55,9 +85,34 @@
           </a>
         </div>
       </div>
+      <!-- MODAL GALERÍA -->
+      <div 
+        id="modalGaleriaStar" 
+        class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50 p-4"
+      >
+        <div class="bg-white rounded-2xl shadow-lg w-full max-w-4xl relative max-h-[90vh] overflow-y-auto">
+          <!-- Botón cerrar -->
+          <button 
+            onclick="document.getElementById('modalGaleriaStar').classList.add('hidden')" 
+            class="sticky top-3 right-3 ml-auto block text-gray-500 hover:text-gray-700 text-3xl leading-none z-50"
+          >
+            ×
+          </button>
+
+          <!-- Contenedor de imágenes responsivo -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+            <img src="/img/star.jpg" alt="Servicio Star 1" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus2.jpg" alt="Servicio Star 2" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus3.jpg" alt="Servicio Star 3" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus4.jpg" alt="Servicio Star 4" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus5.jpg" alt="Servicio Star 5" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus6.jpg" alt="Servicio Star 6" class="w-full h-48 object-cover rounded-lg shadow-md" />
+          </div>
+        </div>
+      </div>
 
       <!-- Servicio Diamante -->
-      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer">
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer" onclick="document.getElementById('modalGaleriaDiamante').classList.remove('hidden')">
         <div class="h-48 overflow-hidden">
           <img 
             src="/img/diamante.jpg" 
@@ -79,9 +134,34 @@
           </a>
         </div>
       </div>
+      <!-- MODAL GALERÍA -->
+      <div 
+        id="modalGaleriaDiamante" 
+        class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50 p-4"
+      >
+        <div class="bg-white rounded-2xl shadow-lg w-full max-w-4xl relative max-h-[90vh] overflow-y-auto">
+          <!-- Botón cerrar -->
+          <button 
+            onclick="document.getElementById('modalGaleriaDiamante').classList.add('hidden')" 
+            class="sticky top-3 right-3 ml-auto block text-gray-500 hover:text-gray-700 text-3xl leading-none z-50"
+          >
+            ×
+          </button>
+
+          <!-- Contenedor de imágenes responsivo -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+            <img src="/img/diamante.jpg" alt="Servicio Diamante 1" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus2.jpg" alt="Servicio Diamante 2" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus3.jpg" alt="Servicio Diamante 3" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus4.jpg" alt="Servicio Diamante 4" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus5.jpg" alt="Servicio Diamante 5" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus6.jpg" alt="Servicio Diamante 6" class="w-full h-48 object-cover rounded-lg shadow-md" />
+          </div>
+        </div>
+      </div>
 
       <!-- Turismo -->
-      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer">
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer" onclick="document.getElementById('modalGaleriaTurismo').classList.remove('hidden')">
         <div class="h-48 overflow-hidden">
           <img 
             src="/img/turi.jpeg" 
@@ -102,9 +182,34 @@
           </a>
         </div>
       </div>
+      <!-- MODAL GALERÍA -->
+      <div 
+        id="modalGaleriaTurismo" 
+        class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50 p-4"
+      >
+        <div class="bg-white rounded-2xl shadow-lg w-full max-w-4xl relative max-h-[90vh] overflow-y-auto">
+          <!-- Botón cerrar -->
+          <button 
+            onclick="document.getElementById('modalGaleriaTurismo').classList.add('hidden')" 
+            class="sticky top-3 right-3 ml-auto block text-gray-500 hover:text-gray-700 text-3xl leading-none z-50"
+          >
+            ×
+          </button>
+
+          <!-- Contenedor de imágenes responsivo -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+            <img src="/img/turi.jpeg" alt="Servicio Turismo 1" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus2.jpg" alt="Servicio Turismo 2" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus3.jpg" alt="Servicio Turismo 3" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus4.jpg" alt="Servicio Turismo 4" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus5.jpg" alt="Servicio Turismo 5" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/plus6.jpg" alt="Servicio Turismo 6" class="w-full h-48 object-cover rounded-lg shadow-md" />
+          </div>
+        </div>
+      </div>
 
        <!-- Servicio Duo -->
-      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer">
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer" onclick="document.getElementById('modalGaleriaDuo').classList.remove('hidden')">
         <div class="h-48 overflow-hidden">
           <img 
             src="/img/duo.jpg" 
@@ -123,6 +228,31 @@
           <a href="#contacto" class="block w-full text-center bg-primary-600 text-white py-3 px-4 rounded-lg hover:bg-primary-700 transition-colors">
             Conocer Más
           </a>
+        </div>
+      </div>
+      <!-- MODAL GALERÍA -->
+      <div 
+        id="modalGaleriaDuo" 
+        class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50 p-4"
+      >
+        <div class="bg-white rounded-2xl shadow-lg w-full max-w-4xl relative max-h-[90vh] overflow-y-auto">
+          <!-- Botón cerrar -->
+          <button 
+            onclick="document.getElementById('modalGaleriaDuo').classList.add('hidden')" 
+            class="sticky top-3 right-3 ml-auto block text-gray-500 hover:text-gray-700 text-3xl leading-none z-50"
+          >
+            ×
+          </button>
+
+          <!-- Contenedor de imágenes responsivo -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+            <img src="/img/duo.jpg" alt="Servicio Duo 1" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/duo1.jpg" alt="Servicio Duo 2" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/duo2.jpg" alt="Servicio Duo 3" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/duo3.jpg" alt="Servicio Duo 4" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/duo4.jpg" alt="Servicio Duo 5" class="w-full h-48 object-cover rounded-lg shadow-md" />
+            <img src="/img/duo5.jpg" alt="Servicio Duo 6" class="w-full h-48 object-cover rounded-lg shadow-md" />
+          </div>
         </div>
       </div>
 
