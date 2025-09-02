@@ -1,0 +1,109 @@
+---
+/* Datos de ejemplo */
+const rutas: Record<string, { hora: string; precio: string; servicio: string }[]> = {
+  "Culiacán-Mazatlán": [
+    { hora: "06:00 AM", precio: "$650", servicio: "Económico" },
+    { hora: "09:00 AM", precio: "$750", servicio: "Ejecutivo" },
+    { hora: "12:00 PM", precio: "$800", servicio: "Lujo" },
+  ],
+  "Culiacán-Guadalajara": [
+    { hora: "07:00 AM", precio: "$1200", servicio: "Económico" },
+    { hora: "01:00 PM", precio: "$1400", servicio: "Ejecutivo" },
+  ],
+  "Mazatlán-Tijuana": [
+    { hora: "08:00 AM", precio: "$1800", servicio: "Ejecutivo" },
+    { hora: "05:00 PM", precio: "$2000", servicio: "Lujo" },
+  ],
+};
+
+const ciudades = ["Culiacán", "Mazatlán", "Guadalajara", "Tijuana"];
+const defaultOrigen = "Culiacán";
+const defaultDestino = "Mazatlán";
+---
+
+<div class="w-full px-4 py-6 bg-white">
+  <div class="w-full bg-transparent">
+    <h2 class="text-2xl md:text-3xl font-bold text-center mb-6">
+      Consulta tus horarios
+    </h2>
+
+    <!-- Selección de Origen y Destino -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+      <div>
+        <label class="block text-sm font-medium mb-1" for="origen">Origen</label>
+        <select id="origen"
+          class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring focus:ring-blue-300">
+          {ciudades.map((c) => (
+            <option value={c} selected={c === defaultOrigen}>{c}</option>
+          ))}
+        </select>
+      </div>
+      <div>
+        <label class="block text-sm font-medium mb-1" for="destino">Destino</label>
+        <select id="destino"
+          class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring focus:ring-blue-300">
+          {ciudades.map((c) => (
+            <option value={c} selected={c === defaultDestino}>{c}</option>
+          ))}
+        </select>
+      </div>
+    </div>
+
+    <!-- Botón consultar -->
+    <div class="flex justify-center mb-6">
+      <button id="consultar"
+        class="px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition">
+        Consultar
+      </button>
+    </div>
+
+    <!-- Resultados -->
+    <div id="resultados" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 min-h-[100px]"></div>
+    <p id="alerta" class="text-center text-gray-500 mt-4 hidden">
+      No hay horarios disponibles para esta ruta.
+    </p>
+  </div>
+</div>
+
+<!-- Pasamos los datos al cliente (escapados correctamente) -->
+<script type="application/json" id="rutas-data">
+  {JSON.stringify(rutas)}
+</script>
+
+<!-- Interactividad -->
+<script is:inline>
+  const rutas = JSON.parse(document.getElementById('rutas-data').textContent);
+  const origenSel = document.getElementById('origen');
+  const destinoSel = document.getElementById('destino');
+  const resultados = document.getElementById('resultados');
+  const alerta = document.getElementById('alerta');
+  const btnConsultar = document.getElementById('consultar');
+
+  function render() {
+    const key = `${origenSel.value}-${destinoSel.value}`;
+    const lista = rutas[key] || [];
+
+    resultados.innerHTML = '';
+
+    if (lista.length === 0 || origenSel.value === destinoSel.value) {
+      alerta.classList.remove('hidden');
+      return;
+    }
+
+    alerta.classList.add('hidden');
+
+    for (const h of lista) {
+      const card = document.createElement('div');
+      card.className =
+        'p-4 border rounded-xl shadow-sm hover:shadow-md transition bg-white/70 backdrop-blur-sm';
+      card.innerHTML = `
+        <p class="text-lg font-semibold">${h.hora}</p>
+        <p class="text-gray-600">${h.servicio}</p>
+        <p class="text-blue-600 font-bold">${h.precio}</p>
+      `;
+      resultados.appendChild(card);
+    }
+  }
+
+  btnConsultar.addEventListener('click', render);
+</script>
