@@ -1,0 +1,19 @@
+[
+  {
+    "origen": "Guamúchil",
+    "destino": "Tijuana",
+    "horarios": [
+      { "hora": "07:00 AM", "servicio": "Diamante", "precio": 950 },
+      { "hora": "10:00 AM", "servicio": "Ejecutivo", "precio": 780 },
+      { "hora": "02:00 PM", "servicio": "Económico", "precio": 650 }
+    ]
+  },
+  {
+    "origen": "Culiacán",
+    "destino": "Mazatlán",
+    "horarios": [
+      { "hora": "08:30 AM", "servicio": "Diamante", "precio": 500 },
+      { "hora": "01:15 PM", "servicio": "Económico", "precio": 320 }
+    ]
+  }
+]
