@@ -1,18 +1,7 @@
 ---
-const ciudades = [
-  "Culiacán",
-  "Guamúchil",
-  "Guasave",
-  "Angostura",
-  "Sinaloa de Leyva",
-  "Ruiz Cortines",
-  "Juan José Ríos",
-  "Navojoa",
-  "Los Mochis",
-  "San Luis Río Colorado",
-  "Mexicali",
-  "Tijuana"
-];
+import rutas from "../data/rutas.json";
+
+const ciudades = [...new Set(rutas.flatMap(r => [r.origen, r.destino]))];
 ---
 
 <div class="w-full flex flex-col items-center p-6">
@@ -21,10 +10,13 @@ const ciudades = [
     <h2 class="text-xl font-bold text-gray-800">Encuentra tu viaje</h2>
 
     <div class="flex flex-col space-y-3">
+      <!-- Select Origen -->
       <select id="origen" class="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500">
         <option value="">Selecciona Origen</option>
+        {ciudades.map(c => <option value={c}>{c}</option>)}
       </select>
 
+      <!-- Select Destino -->
       <select id="destino" class="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500">
         <option value="">Selecciona Destino</option>
       </select>
@@ -48,46 +40,8 @@ const ciudades = [
 
 <script is:inline>
 document.addEventListener('DOMContentLoaded', () => {
-  const ciudades = [
-    "Culiacán",
-    "Guamúchil",
-    "Guasave",
-    "Angostura",
-    "Sinaloa de Leyva",
-    "Ruiz Cortines",
-    "Juan José Ríos",
-    "Navojoa",
-    "Los Mochis",
-    "San Luis Río Colorado",
-    "Mexicali",
-    "Tijuana"
-  ];
-
-  const tiposServicio = [
-    { servicio: "Diamante", precioBase: 1900 },
-    { servicio: "Star de Lujo", precioBase: 1600 },
-    { servicio: "Duo", precioBase: 1600 },
-    { servicio: "Plus", precioBase: 300 }
-  ];
-
-  // Generar rutas de ida y vuelta en el cliente
-  const rutas = [];
-  ciudades.forEach((origen) => {
-    ciudades.forEach((destino) => {
-      if (origen !== destino) {
-        const horarios = [
-          "07:00 AM",
-          "01:00 PM",
-          "06:00 PM"
-        ].map((hora, index) => ({
-          hora,
-          servicio: tiposServicio[index].servicio,
-          precio: tiposServicio[index].precioBase
-        }));
-        rutas.push({ origen, destino, horarios });
-      }
-    });
-  });
+  // ✅ Astro inyecta el JSON en JS
+  const rutas = JSON.parse(`{JSON.stringify(rutas)}`);
 
   const origenSelect = document.getElementById('origen');
   const destinoSelect = document.getElementById('destino');
@@ -95,31 +49,27 @@ document.addEventListener('DOMContentLoaded', () => {
   const listaHorarios = document.getElementById('lista-horarios');
   const errorMsg = document.getElementById('error-msg');
 
-  // Llenar origenes
-  ciudades.forEach(o => {
-    const opt = document.createElement('option');
-    opt.value = o;
-    opt.textContent = o;
-    origenSelect.appendChild(opt);
-  });
-
-  // Filtrar destinos automáticamente según origen
+  // Cuando cambia el origen → llenar destinos válidos
   origenSelect.addEventListener('change', () => {
     const origen = origenSelect.value;
     listaHorarios.innerHTML = '';
     destinoSelect.innerHTML = '<option value="">Selecciona Destino</option>';
+
     if (!origen) return;
 
-    rutas
+    const destinos = rutas
       .filter(r => r.origen === origen)
-      .forEach(r => {
-        const opt = document.createElement('option');
-        opt.value = r.destino;
-        opt.textContent = r.destino;
-        destinoSelect.appendChild(opt);
-      });
+      .map(r => r.destino);
+
+    destinos.forEach(destino => {
+      const opt = document.createElement('option');
+      opt.value = destino;
+      opt.textContent = destino;
+      destinoSelect.appendChild(opt);
+    });
   });
 
+  // Buscar horarios
   buscarBtn.addEventListener('click', () => {
     const origen = origenSelect.value;
     const destino = destinoSelect.value;

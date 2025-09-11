@@ -1,19 +1,6617 @@
 [
   {
-    "origen": "Guamúchil",
-    "destino": "Tijuana",
+    "origen": "Culiacán",
+    "destino": "Guamúchil",
     "horarios": [
-      { "hora": "07:00 AM", "servicio": "Diamante", "precio": 950 },
-      { "hora": "10:00 AM", "servicio": "Ejecutivo", "precio": 780 },
-      { "hora": "02:00 PM", "servicio": "Económico", "precio": 650 }
+      {
+        "hora": "10:030 AM",
+        "tipo": "Star de lujo",
+        "precio": 100
+      },
+      {
+        "hora": "12:30 PM",
+        "tipo": "Star de lujo",
+        "precio": 100
+      },
+      {
+        "hora": "01:30 PM",
+        "tipo": "Diamante",
+        "precio": 100
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 100
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 100
+      } 
+    ]
+  },
+  
+  {
+    "origen": "Culiacán",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
     ]
   },
   {
     "origen": "Culiacán",
-    "destino": "Mazatlán",
+    "destino": "Sinaloa de Leyva",
     "horarios": [
-      { "hora": "08:30 AM", "servicio": "Diamante", "precio": 500 },
-      { "hora": "01:15 PM", "servicio": "Económico", "precio": 320 }
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Culiacán",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Culiacán",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Culiacán",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Culiacán",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Culiacán",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Culiacán",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Culiacán",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Culiacán",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  
+  {
+    "origen": "Guamúchil",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guamúchil",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  
+ 
+  {
+    "origen": "Angostura",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Angostura",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Angostura",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Angostura",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  
+  {
+    "origen": "Guasave",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Guasave",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Sinaloa de Leyva",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Angostura",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Ruiz Cortines",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Angostura",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Juan José Ríos",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Angostura",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Los Mochis",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Angostura",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "El Carrizo",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Angostura",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Navojoa",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Angostura",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "San Luis Río Colorado",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Angostura",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Mexicali",
+    "destino": "Tijuana",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Culiacán",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Guamúchil",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Angostura",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Guasave",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Sinaloa de Leyva",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Ruiz Cortines",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Juan José Ríos",
+    "horarios": [
+      {
+        "hora": "04:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Los Mochis",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "El Carrizo",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Navojoa",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "San Luis Río Colorado",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
+    ]
+  },
+  {
+    "origen": "Tijuana",
+    "destino": "Mexicali",
+    "horarios": [
+      {
+        "hora": "06:00 AM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "06:00 AM",
+        "tipo": "Diamante",
+        "precio": 1000
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Básico",
+        "precio": 500
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Star de lujo",
+        "precio": 800
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Duo",
+        "precio": 700
+      },
+      {
+        "hora": "12:00 PM",
+        "tipo": "Diamante",
+        "precio": 1000
+      }
     ]
   }
 ]

@@ -9,13 +9,14 @@ import Footer from '../components/Footer.astro';
 import Horarios from '../components/Horarios.astro';
 import Conect from '../components/Conect.astro';
 import Hero2 from '../components/Hero2.astro';
+import Rutas from '../components/Rutas.jsx';
 ---
 
 <Layout>
   <Header />
   <Hero />
   <Services />
-  <Horarios />
+  <Rutas client:load/>
 
   <About />
   <Conect />
