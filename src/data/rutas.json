@@ -36,45 +36,30 @@
     "destino": "Guasave",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 100
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 100
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 100
+      } 
     ]
   },
   {
@@ -82,45 +67,30 @@
     "destino": "Sinaloa de Leyva",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 100
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 100
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 100
+      } 
     ]
   },
   {
@@ -128,45 +98,30 @@
     "destino": "Ruiz Cortines",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 100
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 100
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 100
+      } 
     ]
   },
   {
@@ -174,45 +129,30 @@
     "destino": "Juan José Ríos",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 100
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 100
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 100
+      } 
     ]
   },
   {
@@ -220,45 +160,30 @@
     "destino": "Los Mochis",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 100
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 100
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 100
+      } 
     ]
   },
   {
@@ -266,45 +191,30 @@
     "destino": "El Carrizo",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 100
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 100
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 100
+      } 
     ]
   },
   {
@@ -312,45 +222,30 @@
     "destino": "Navojoa",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 100
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 100
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 100
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 100
+      } 
     ]
   },
   {
@@ -358,45 +253,30 @@
     "destino": "San Luis Río Colorado",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 1600
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 1600
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 1800
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 1500
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 1600
+      } 
     ]
   },
   {
@@ -404,45 +284,30 @@
     "destino": "Mexicali",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 1600
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 1600
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 1800
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 1500
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 1600
+      } 
     ]
   },
   {
@@ -450,45 +315,30 @@
     "destino": "Tijuana",
     "horarios": [
       {
-        "hora": "06:00 AM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "06:00 AM",
+        "hora": "10:030 AM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 1700
       },
       {
-        "hora": "06:00 AM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "06:00 AM",
-        "tipo": "Diamante",
-        "precio": 1000
-      },
-      {
-        "hora": "12:00 PM",
-        "tipo": "Básico",
-        "precio": 500
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "12:30 PM",
         "tipo": "Star de lujo",
-        "precio": 800
+        "precio": 1700
       },
       {
-        "hora": "12:00 PM",
-        "tipo": "Duo",
-        "precio": 700
-      },
-      {
-        "hora": "12:00 PM",
+        "hora": "01:30 PM",
         "tipo": "Diamante",
-        "precio": 1000
-      }
+        "precio": 1900
+      },
+      {
+        "hora": "02:00 PM",
+        "tipo": "Basico",
+        "precio": 1600
+      },
+      {
+        "hora": "04:00 PM",
+        "tipo": "Duo",
+        "precio": 1700
+      } 
     ]
   },
   {

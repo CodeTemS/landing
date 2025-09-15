@@ -20,9 +20,9 @@ export default function SelectorRutas() {
 
   return (
     <div className="p-6 max-w-5xl mx-auto bg-white rounded-xl shadow-lg">
-      <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">Buscar boletos</h2>
+      <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">Consulta Horarios</h2>
 
-      <div className="flex flex-col sm:flex-row gap-4 mb-6">
+      <div className="flex flex-col sm:flex-row gap-4 mb-6 ">
         <div className="flex-1">
           <label className="block mb-2 font-medium text-gray-700">Origen</label>
           <select
@@ -67,7 +67,7 @@ export default function SelectorRutas() {
           {horariosDisponibles.map((h, index) => (
             <div
               key={index}
-              className="border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition bg-gradient-to-br from-white to-gray-50"
+              className="border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition bg-gradient-to-br from-white to-gray-50 cursor-pointer"
             >
               <p className="text-lg font-semibold mb-1">Hora: <span className="font-normal">{h.hora}</span></p>
               <p className="text-lg font-semibold mb-1">Servicio: <span className="font-normal">{h.tipo}</span></p>
